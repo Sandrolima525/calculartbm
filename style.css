@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    padding: 2em;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+    background-image: url('05.jpg');
+    background-repeat: no-repeat;
+    background-clip:initial;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-x: center;
+    
+}
+
+a{
+    text-transform: uppercase;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    position: sticky;
+    top: 0px;
+    background-color: #3b5c40;
+    width: 100%;
+    z-index: 1000;
+}
+
+section{
+    margin-left: 8vw;
+    position: relative;
+    height: calc(100vh - 3rem);
+    width: 100%;
+    background: url('imagem/img-pc.jpg') no-repeat top center / cover;
+    overflow: hidden;
+    margin-top: 8em;
+}
+iframe{
+    width: 80vw;
+    height: 80vh;
+    background-color:#FDFDFD;
+
+zoom: 1;
+
+
+-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+
+
+filter: alpha(opacity=50);
+
+-moz-opacity:0.9;
+
+
+-khtml-opacity: 0.9;
+
+
+opacity: 0.9;
+
+}
+
+h3{
+    width: 90vw;
+    padding: 0px;
+    font-size:1.7em;
+    text-align: center;
+    color: white;
+    margin-left:-1vw;
+    border-top : solid 0.5px greenyellow;
+    border-bottom:solid 0.5px greenyellow;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    color: greenyellow;
+    text-shadow: 5px 1px 1px black;
+    
+}
+.overlay{
+    margin-top: vh;
+}
+main{
+    margin-top: -25vw;
+}
+
+footer{
+    font-size: 10px;
+    color: white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -4vw;
+
+}
+footer a img{
+    width: 30px;
+    padding-left: 1vw;
+}
+
+footer a{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 920px){
+   
+
+    
+   
+
+    
+  
+    
+
+
+   
+
+  
+
+
+
+    section{
+        position: relative;
+        height: calc(100vh - 3rem);
+        width: 100%;
+        background: url('imagem/05.jpg') no-repeat top center / cover;
+        overflow: hidden;
+    }
+    
+}
